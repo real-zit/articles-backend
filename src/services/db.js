@@ -10,8 +10,6 @@ mongoose.connection.on('err', (err) => {
 });
 
 const mongoConnect = async () => {
-  console.log(process.env.PORT);
-  console.log(process.env.MONGO_URL);
   await mongoose.connect(MONGO_URL);
 };
 
