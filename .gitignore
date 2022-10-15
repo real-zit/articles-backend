@@ -1,0 +1,8 @@
+#dependecies
+/node_modules
+
+#env
+.env
+
+cert.pem
+key.pem
